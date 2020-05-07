@@ -332,12 +332,13 @@ flex-wrap: wrap;
 .card__inner{
     position: relative;
     /* margin: 20px 20px; */
-    width: 300px;height: 430px;
+    width: 360px;
+    height: 580px;
     background-color: #fff;
     transform-style: preserve-3d;
     transform: perspective(2000px);
     transition: 1s;
-  margin: 2rem 2rem;
+  margin: 2rem 1rem;
 }
 
 .card__inner:hover{
@@ -402,7 +403,9 @@ flex-wrap: wrap;
   opacity:1;
   transition: 1s;
 }
-
+.details p{
+  font-size: 16px;
+}
 
 /* 3d card */
 
